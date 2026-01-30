@@ -17,26 +17,3 @@ scikit-learn==1.5.2
 python-multipart==0.0.20
 httpx==0.28.1
 ```
-
-5. **Scroll down** to "Commit changes" section
-6. Click **"Commit changes"** (green button)
-7. Click **"Commit changes"** again in the popup
-
-### **STEP 3: Redeploy on Render**
-1. Go back to Render: https://dashboard.render.com
-2. Click on your service
-3. Click **"Manual Deploy"** (top right, blue button)
-4. Select **"Deploy latest commit"**
-5. Click **"Yes, deploy"**
-
----
-
-## ⏰ WAIT AND WATCH
-
-Now **WAIT 5-10 minutes** and watch the Render logs.
-
-You should see:
-```
-Successfully installed fastapi-0.115.0 ...
-...
-Application startup complete
