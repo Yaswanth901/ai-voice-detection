@@ -1,19 +1,11 @@
-# Core API Framework - Pre-built versions
 fastapi==0.115.0
 uvicorn[standard]==0.32.1
 pydantic==2.10.3
-
-# Audio Processing
 librosa==0.10.2
 soundfile==0.12.1
 pydub==0.25.1
 numpy==1.26.4
 scipy==1.14.1
-
-# Machine Learning
 scikit-learn==1.5.2
-
-# Utilities
 python-multipart==0.0.20
 httpx==0.28.1
-```
